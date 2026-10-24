@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px 0px;
+    background: rgb(105, 9, 157);
+    color: white;
+}
+
+/* ///////////////////// NAVBAR ///////////////////// */
+
+#fixed_bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 26px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey {
+    background: white;
+}
+
+#title_text {
+    color: rgb(105, 9, 157);
+    padding: 5px;
+    font-size: 26px;
+}
+
+#body_container {
+    height: 100%;
+}
+
+.film_title_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 48px;
+}
+
+.film_title {
+    padding: 0 30px;
+}
+
+.film_counter_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.grade_label {
+    font-size: 32px;
+    margin: 0 10px 0 0;
+    padding: 5px;
+}
+
+.counter {
+    font-size: 32px;
+    padding: 5px 20px;
+    font-family: "Space Mono", monospace;
+}
+
+.minus_button {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px 0 0 10px;
+}
+
+.plus_button {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 0 10px 10px 0;
+}
+
+.minus_icon,
+.plus_icon {
+    font-size:32px;
+}
