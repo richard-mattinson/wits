@@ -50,12 +50,14 @@ body {
 .film_title_container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 30px;
     font-size: 48px;
 }
 
 .film_title {
+    font-size: 24px;
     padding: 0 30px;
 }
 
