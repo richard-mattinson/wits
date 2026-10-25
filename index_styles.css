@@ -13,7 +13,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 100px 0px;
+    padding: 50px 0px;
     background: rgb(105, 9, 157);
     color: white;
 }
@@ -52,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 10px;
     font-size: 48px;
 }
 
@@ -69,13 +69,13 @@ body {
 }
 
 .grade_label {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0 10px 0 0;
     padding: 5px;
 }
 
 .counter {
-    font-size: 32px;
+    font-size: 28px;
     padding: 5px 20px;
     font-family: "Space Mono", monospace;
 }
